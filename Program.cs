@@ -12,7 +12,7 @@
                 string responseIn = Console.ReadLine();
                 if (responseIn == "1")
                 {
-                    Console.WriteLine("--- zvoleno 1 ---");
+                    Console.WriteLine("--- zvoleno 1 ---"); //Pak odstranit
                     //Vyzvi uzivatele k zadani poctu cisel
                     //zkonvertuj jeho odpoved jako int numberOfItems
                     //Pokud konverze selze a nebo cislo je vetsi nez 100000 tak zadej 1000.
@@ -28,7 +28,7 @@
                 }
                 else if (responseIn == "2")
                 {
-                    Console.WriteLine("--- zvoleno 2 ---");
+                    Console.WriteLine("--- zvoleno 2 ---"); //Pak odstranit
                     //Vyzvi uzivatele k zadani rady cisel oddelenyma carkou
                     //nacti toto do prommenne string radaCiselString
                     //Zavolej funkci ParseStringIntoArrayOfInts ze tridy ArrayPlay01
@@ -38,7 +38,7 @@
                 }
                 else if (responseIn == "3")
                 {
-                    Console.WriteLine("--- zvoleno 3 ---");
+                    Console.WriteLine("--- zvoleno 3 ---"); //Pak odstranit
                     break;
                 }
                 else
