@@ -65,13 +65,15 @@ namespace _3SA_W2_ArrayLists
         }
         internal static int[] SortArray(int[] arrayIn, bool ascend)
         {
+            // Pouzij COPY PROC?   Array.Copy() a prekopiruj hodnoty z arrayIn do newSortedArrayOut
             int[] newSortedArrayOut = new int[arrayIn.Length];
             //Pomoci třídy Array seřad pole a vrat ho
-            // Pouzij COPY PROC?   Array.Copy()
             //serad pole a vrat volajicimu
-            if (ascend) //vzestupne
+            if (ascend) //vzestupne Pouzit Sort()
             {
-                //Pouzit Sort()
+                Array.Sort(newSortedArrayOut);
+                return newSortedArrayOut;
+               
             }
             else
             {
